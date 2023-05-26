@@ -14,7 +14,8 @@ $ . env/bin/activate
 ```
 
 You also need to download ChromeDriver if you don't have it already from
-https://chromedriver.chromium.org/downloads and put it somewhere in your `PATH`.
+https://chromedriver.chromium.org/downloads and put it somewhere in your `PATH`. 
+In Ubuntu, install it by `sudo apt install chromium-chromedriver`.
 
 
 ## Usage
