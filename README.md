@@ -14,8 +14,11 @@ $ . env/bin/activate
 ```
 
 You also need to download ChromeDriver if you don't have it already from
-https://chromedriver.chromium.org/downloads and put it somewhere in your `PATH`. 
-In Ubuntu, install it by `sudo apt install chromium-chromedriver`.
+https://chromedriver.chromium.org/downloads and put it somewhere in your `PATH`.
+
+In Ubuntu, you can install with: `sudo apt install chromium-chromedriver`. Make
+sure that the version of ChromeDriver installed is a match for the version of
+Chromium you have installed, or Selenium will fail to start.
 
 
 ## Usage
