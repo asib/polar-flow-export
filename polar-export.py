@@ -39,7 +39,7 @@ def export_exercise(driver, exercise_id, output_dir):
     tcx_data = r.text
     filename = _get_filename(r)
 
-    outfile = open(os.path.join(output_dir, filename), 'wb')
+    outfile = open(os.path.join(output_dir, filename), 'w')
     outfile.write(tcx_data)
     outfile.close()
     print("Wrote file %s" % filename)
